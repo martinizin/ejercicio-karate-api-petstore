@@ -1,4 +1,4 @@
-# PetStore API Automation - Karate DSL & Gradle
+# Ejercicio PetStore API - Karate - Gradle
 
 El siguiente ejercicio presenta un conjunto de pruebas automatizadas para la API de **PetStore**, desarrolladas utilizando el framework **Karate** y gestionadas con **Gradle**.
 
