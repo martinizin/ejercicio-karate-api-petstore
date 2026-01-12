@@ -1,0 +1,8 @@
+
+Durante el desarrollo de la automatización para la API de PetStore, logré cubrir satisfactoriamente los flujos principales (Creación, Consulta por ID, Consulta por Estado y Actualización), obteniendo una tasa de éxito del 100% en la ejecución paralela.
+
+Hallazgos Técnicos:
+Uno de los desafíos principales fue la configuración correcta de los "Source Sets" en Gradle. Inicialmente, al ubicar los archivos `.js` y `.feature` dentro de `src/test/java`, estos eran ignorados durante la compilación. El hallazgo clave fue reestructurar el proyecto moviendo estos recursos a `src/test/resources`, permitiendo que el Classpath los reconociera correctamente y habilitando la lectura dinámica de la configuración global (`karate-config.js`).
+
+Como valor agregado en mi implementación, no me limité a escenarios aislados. Apliqué el principio DRY (Don't Repeat Yourself) utilizando la capacidad de Karate para llamar a otros features.
+Específicamente en el escenario de "Actualizar Mascota" (`updatePet.feature`), implementé un paso `call read('addPet.feature')`. Esto asegura que el dato de prueba exista dinámicamente antes de intentar modificarlo, haciendo que el test sea robusto e independiente del estado previo de la base de datos. Esta técnica, sumada a la externalización de los "Request Bodies" en archivos JSON dentro de la carpeta `/data`.
