@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<!-- saved from url=(0174)http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/report-feature_3_1397860171.html?_ijt=h7f7edh6o5a0e94quvb023c9ep&_ij_reload=RELOAD_ON_SAVE -->
+<html><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<script src="./Cucumber Reports - Feature_ features_updatePet.feature_files/jquery.min.js.download"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script>
+<script src="./Cucumber Reports - Feature_ features_updatePet.feature_files/jquery.tablesorter.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_updatePet.feature_files/Chart.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_updatePet.feature_files/moment.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_updatePet.feature_files/bootstrap.min.js.download"></script>
+
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_updatePet.feature_files/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_updatePet.feature_files/cucumber.css" type="text/css">
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_updatePet.feature_files/font-awesome.min.css">
+<link rel="shortcut icon" href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/images/favicon.png">
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Feature: features/updatePet.feature</title>
+
+</head>
+<body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjM1Iiwic2NvcmUiOjIwMDM1fV0=" data-new-gr-c-s-check-loaded="14.1268.0" data-gr-ext-installed="" __processed_a690043c-a248-4e28-b6ee-3f99c209f87c__="true">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid" bis_skin_checked="1">
+    <div class="collapse navbar-collapse" bis_skin_checked="1">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-features.html">Features</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-tags.html">Tags</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-steps.html">Steps</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="col-md-5 col-md-offset-1" bis_skin_checked="1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>PetStore API</td>
+      <td>11 ene. 2026, 20:46</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2" bis_skin_checked="1">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid" bis_skin_checked="1">
+  <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+    <h2>Feature Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">features/updatePet.feature</td>
+          <td class="passed">22</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td class="total">22</td>
+
+          <td class="passed">1</td>
+          <td>0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="2455250200">2.455</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-1 col-md-offset-10" bis_skin_checked="1">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;show&#39;)"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;hide&#39;)"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+      <div class="feature" bis_skin_checked="1">
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Feature</span>
+  <span class="name">features/updatePet.feature</span>
+
+
+</div>
+
+        <div class="description indention" bis_skin_checked="1">Actualización de datos de mascota</div>
+
+        <div class="elements inner-level" bis_skin_checked="1">
+
+<div class="element" bis_skin_checked="1">
+
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+  <span class="lead-duration duration">2.215</span>
+
+
+  <span data-toggle="collapse" class="collapsable-control" data-target="#element-1" aria-expanded="true">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention" bis_skin_checked="1"></div>
+
+  <div id="element-1" class="collapsable-details collapse in" bis_skin_checked="1" aria-expanded="true" style="">
+
+
+
+
+
+<div class="steps inner-level" bis_skin_checked="1">
+  <div data-toggle="collapse" class="collapsable-control" data-target="#steps-2" bis_skin_checked="1" aria-expanded="true">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapsable-details collapse in" bis_skin_checked="1" aria-expanded="true" style="">
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-* passed" bis_skin_checked="1">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:00.368 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+          <div class="comment indention" bis_skin_checked="1"># Precondición: Crear mascota</div>
+
+
+<div class="brief step-name-* passed" bis_skin_checked="1">
+  <span class="keyword indention">*</span>
+  <span class="name">def createResult = call read('addPet.feature')</span>
+
+  <span class="lead-duration duration">1.113</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name- passed" bis_skin_checked="1">
+  <span class="keyword indention"></span>
+  <span class="name">features/addPet.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; * passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">url baseUrl</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; * passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def petPayload = read('classpath:data/pets.json')</span>
+
+  <span class="lead-duration duration">0.068</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; Given passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path 'pet'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; And passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request petPayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; When passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">1.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:00.620 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 137
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":1,"name":"Dogs"},"name":"Kiraa","photoUrls":["string"],"tags":[{"id":0,"name":"friendly"}],"status":"available"}
+
+20:46:01.496 response time in milliseconds: 871
+1 &lt; 200
+1 &lt; Date: Mon, 12 Jan 2026 01:42:28 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{"id":9223372036854775807,"category":{"id":1,"name":"Dogs"},"name":"Kiraa","photoUrls":["string"],"tags":[{"id":0,"name":"friendly"}],"status":"available"}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; Then passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; And passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.name == petPayload.name</span>
+
+  <span class="lead-duration duration">0.022</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; And passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.id == '#number'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-&amp;gt; And passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.status == 'available'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+          <div class="comment indention" bis_skin_checked="1"># Guardamos el ID para logs (aunque en ejecución paralela cada test es aislado)</div>
+
+
+<div class="brief step-name-&amp;gt; * passed" bis_skin_checked="1">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">print 'Mascota creada con ID:', response.id</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:01.524 [print] Mascota creada con ID: 9223372036854775807 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-* passed" bis_skin_checked="1">
+  <span class="keyword indention">*</span>
+  <span class="name">def petId = createResult.response.id</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+          <div class="comment indention" bis_skin_checked="1"># Leer payload de actualización e inyectar el ID dinámicamente</div>
+
+
+<div class="brief step-name-* passed" bis_skin_checked="1">
+  <span class="keyword indention">*</span>
+  <span class="name">def updatePayload = read('classpath:data/updatePet.json')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element" bis_skin_checked="1">
+
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+  <span class="lead-duration duration">0.239</span>
+
+
+  <span data-toggle="collapse" class="collapsable-control" data-target="#element-6" aria-expanded="true">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Actualizar el nombre y estatus de la mascota a "sold"</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention" bis_skin_checked="1"></div>
+
+  <div id="element-6" class="collapsable-details collapse in" bis_skin_checked="1" aria-expanded="true" style="">
+
+
+
+
+
+<div class="steps inner-level" bis_skin_checked="1">
+  <div data-toggle="collapse" class="collapsable-control" data-target="#steps-7" bis_skin_checked="1" aria-expanded="true">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-7" class="inner-level collapsable-details collapse in" bis_skin_checked="1" aria-expanded="true" style="">
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-Given passed" bis_skin_checked="1">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'pet'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">request updatePayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-When passed" bis_skin_checked="1">
+  <span class="keyword indention">When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.237</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:01.533 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 159
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{"id":9223372036854775807,"category":{"id":1,"name":"Dogs"},"name":"Kiraa Adoptada","photoUrls":["string"],"tags":[{"id":0,"name":"friendly"}],"status":"sold"}
+
+20:46:01.765 response time in milliseconds: 232
+1 &lt; 200
+1 &lt; Date: Mon, 12 Jan 2026 01:42:28 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{"id":9223372036854775807,"category":{"id":1,"name":"Dogs"},"name":"Kiraa Adoptada","photoUrls":["string"],"tags":[{"id":0,"name":"friendly"}],"status":"sold"}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-Then passed" bis_skin_checked="1">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match response.id == petId</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match response.status == 'sold'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match response.name == 'Kiraa Adoptada'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-1 col-md-offset-10" bis_skin_checked="1">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;show&#39;)"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;hide&#39;)"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid" bis_skin_checked="1">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+
+
+<script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + 
+             '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
+             'referrer=' + encodeURIComponent(window.location.pathname));
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!-- saved from url=(0174)http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/report-feature_1_3427994523.html?_ijt=anvq08rbnut0el4oo1v27rculi&_ij_reload=RELOAD_ON_SAVE -->
+<html><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<script src="./Cucumber Reports - Feature_ features_findByStatus.feature_files/jquery.min.js.download"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script>
+<script src="./Cucumber Reports - Feature_ features_findByStatus.feature_files/jquery.tablesorter.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_findByStatus.feature_files/Chart.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_findByStatus.feature_files/moment.min.js.download"></script>
+<script src="./Cucumber Reports - Feature_ features_findByStatus.feature_files/bootstrap.min.js.download"></script>
+
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_findByStatus.feature_files/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_findByStatus.feature_files/cucumber.css" type="text/css">
+<link rel="stylesheet" href="./Cucumber Reports - Feature_ features_findByStatus.feature_files/font-awesome.min.css">
+<link rel="shortcut icon" href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/images/favicon.png">
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Feature: features/findByStatus.feature</title>
+
+</head>
+<body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjM1Iiwic2NvcmUiOjIwMDM1fV0=" data-new-gr-c-s-check-loaded="14.1268.0" data-gr-ext-installed="" __processed_5d0e5ed1-b52f-4636-a0f3-fc6746d30bb3__="true">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid" bis_skin_checked="1">
+    <div class="collapse navbar-collapse" bis_skin_checked="1">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-features.html">Features</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-tags.html">Tags</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-steps.html">Steps</a></li>
+        <li role="presentation"><a href="http://localhost:63342/karate-petstore/build/reports/cucumber/cucumber-html-reports/overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="col-md-5 col-md-offset-1" bis_skin_checked="1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>PetStore API</td>
+      <td>11 ene. 2026, 20:46</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2" bis_skin_checked="1">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid" bis_skin_checked="1">
+  <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+    <h2>Feature Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">features/findByStatus.feature</td>
+          <td class="passed">8</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td class="total">8</td>
+
+          <td class="passed">1</td>
+          <td>0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="1125086100">1.125</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-1 col-md-offset-10" bis_skin_checked="1">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;show&#39;)"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;hide&#39;)"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-10 col-md-offset-1" bis_skin_checked="1">
+      <div class="feature" bis_skin_checked="1">
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Feature</span>
+  <span class="name">features/findByStatus.feature</span>
+
+
+</div>
+
+        <div class="description indention" bis_skin_checked="1">Búsqueda de mascotas por estatus</div>
+
+        <div class="elements inner-level" bis_skin_checked="1">
+
+<div class="element" bis_skin_checked="1">
+
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+  <span class="lead-duration duration">0.000</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention" bis_skin_checked="1"></div>
+
+  <div id="element-1" class="collapse collapsable-details " bis_skin_checked="1">
+
+
+
+
+
+<div class="steps inner-level" bis_skin_checked="1">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2" bis_skin_checked="1">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details " bis_skin_checked="1">
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-* passed" bis_skin_checked="1">
+  <span class="keyword indention">*</span>
+  <span class="name">url baseUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:00.368 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element" bis_skin_checked="1">
+
+
+<div class="tags indention" bis_skin_checked="1">
+</div>
+
+
+  <span class="lead-duration duration">1.124</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Consultar mascotas con estatus 'sold'</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention" bis_skin_checked="1"></div>
+
+  <div id="element-4" class="collapse collapsable-details " bis_skin_checked="1">
+
+
+
+
+
+<div class="steps inner-level" bis_skin_checked="1">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5" bis_skin_checked="1">
+
+<div class="brief passed" bis_skin_checked="1">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-5" class="inner-level collapse collapsable-details " bis_skin_checked="1">
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-Given passed" bis_skin_checked="1">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'pet', 'findByStatus'</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">param status = 'sold'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-When passed" bis_skin_checked="1">
+  <span class="keyword indention">When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">1.087</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level" bis_skin_checked="1">
+    <div class="docstring indention" bis_skin_checked="1">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6" bis_skin_checked="1">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details" bis_skin_checked="1">
+        <pre>20:46:00.620 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:46:01.500 response time in milliseconds: 871
+1 &lt; 200
+1 &lt; Date: Mon, 12 Jan 2026 01:42:28 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":9223372036854775410,"category":{"id":13901210,"name":"Lorem"},"name":"doggie","photoUrls":["irure","amet mollit"],"tags":[{"id":62083722,"name":"proident magna consequat"},{"id":83179165,"name":"commodo sint"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":9223372036854775458,"category":{"id":-1545904,"name":"fishs"},"name":"nemo fish","photoUrls":["fugiat ex","https://img.freepik.com/free-vector/one-goldfish-on-white-background_1308-73185.jpg"],"tags":[{"id":78174477,"name":"sint aliquip"},{"id":34196593,"name":"tempor cillum incididunt exercitation veniam"}],"status":"sold"},{"id":1004,"name":"Rocky","photoUrls":[],"tags":[],"status":"sold"},{"id":6,"category":{"id":9770,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":7376,"name":"string"},{"id":760,"name":"string"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":9223372036854775547,"category":{"id":-52311390,"name":"enim tempor labore sit amet"},"name":"doggie","photoUrls":["magna officia aute","cillum labore qui"],"tags":[{"id":-40013794,"name":"in irure sit Duis"},{"id":-72219424,"name":"labore aliquip aliqua"}],"status":"sold"},{"id":16,"category":{"id":1,"name":"boy"},"name":"Tom","photoUrls":["https://upload.wikimedia.org/wikipedia/commons/0/0c/Deutscher_Sch%C3%A4ferhund-_portrait.JPG"],"tags":[{"id":16,"name":"nemeckaya ovcharka"}],"status":"sold"},{"id":6529,"category":{"id":4796,"name":"string"},"name":"doggie","photoUrls":["string","string"],"tags":[{"id":9118,"name":"string"},{"id":3436,"name":"string"}],"status":"sold"},{"id":23437566,"category":{"id":-46393995,"name":"ex ea culpa"},"name":"doggie","photoUrls":["ut ex veniam dolor","in aliquip"],"tags":[{"id":91638732,"name":"Excepteur ea commodo esse"},{"id":42980181,"name":"nulla officia ut labore"}],"status":"sold"},{"id":777123,"category":{"id":777123,"name":"fish"},"name":"Nemo","photoUrls":["https://img1.fonwall.ru/o/hl/sea-photography-flower-underwater.jpeg?route=mid&amp;amp;h=750","https://img1.fonwall.ru/o/hl/sea-photography-flower-underwater.jpeg?route=mid&amp;amp;h=750"],"tags":[{"id":123,"name":"priff"},{"id":123,"name":"ribka"}],"status":"sold"},{"id":2022000,"category":{"id":0,"name":"bird"},"name":"Star","photoUrls":["string"],"tags":[{"id":0,"name":"shy"}],"status":"sold"},{"id":51338511,"category":{"id":43003430,"name":"ex ullamco"},"name":"doggie","photoUrls":["sit ipsum","nulla eu aliqua incididunt"],"tags":[{"id":1864541,"name":"anim elit amet"},{"id":98553871,"name":"ut"}],"status":"sold"},{"id":79897977,"category":{"id":-43696612,"name":"exercitation"},"name":"doggie","photoUrls":["dolor","velit voluptate"],"tags":[{"id":59218385,"name":"aliqua"},{"id":72829050,"name":"nostrud ut"}],"status":"sold"},{"id":38480305,"category":{"id":-59161747,"name":"Duis voluptate consequat"},"name":"doggie","photoUrls":["ex enim ","nisi est"],"tags":[{"id":49121599,"name":"non anim exercitation"},{"id":2672065,"name":"sint"}],"status":"sold"},{"id":5644444,"category":{"id":566555,"name":"nulla minim laborum deserunt"},"name":"Собака","photoUrls":["anim ullamco laborum eu","eiusm"],"tags":[{"id":10156776,"name":"cillum adipisicing"},{"id":-53013483,"name":"sit Ut enim dolore"}],"status":"sold"},{"id":70119872,"category":{"id":93142102,"name":"Змея"},"name":"Анаконда","photoUrls":["mollit","https://irecommend.ru/sites/default/files/product-images/98227/3lJyZagay9aoxv06o6TJCQ.jpg"],"tags":[{"id":-19037377,"name":"deserunt veniam nulla reprehenderit"},{"id":51503358,"name":"ullamco aliqua Excepteur cillum"}],"status":"sold"},{"id":70119872000,"category":{"id":93142102,"name":"Заяц французский 2"},"name":"LAPIN LAPIN","photoUrls":["mollit","https://irecommend.ru/sites/default/files/product-images/98227/3lJyZagay9aoxv06o6TJCQ.jpg"],"tags":[{"id":-19037377,"name":"deserunt veniam nulla reprehenderit"},{"id":51503358,"name":"ullamco aliqua Excepteur cillum"}],"status":"sold"},{"id":60,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":62751340,"category":{"id":-37441254,"name":"aute cillum voluptate veniam"},"name":"doggie","photoUrls":["mollit veniam","dolor enim reprehenderit"],"tags":[{"id":91709679,"name":"anim adipisicing"},{"id":919209,"name":"sint anim"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854773917,"category":{"id":0,"name":"string"},"name":"boss2.0","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":71551342,"category":{"id":14955550,"name":"ipsum do amet"},"name":"doggie","photoUrls":["dolore dolor","pariatur elit ea"],"tags":[{"id":-17398234,"name":"non ex"},{"id":-32010324,"name":"ut culpa aliqua est non"}],"status":"sold"},{"id":52931566,"category":{"id":91307171,"name":"sint aliqua"},"name":"doggie","photoUrls":["ut culpa null","quis"],"tags":[{"id":-40794559,"name":"velit proident nulla"},{"id":-14228534,"name":"ess"}],"status":"sold"},{"id":87705905,"category":{"id":22032096,"name":"reprehenderit in minim"},"name":"doggie","photoUrls":["cillum Ut ","et adipisicing consequat"],"tags":[{"id":-14103627,"name":"reprehenderit"},{"id":47181501,"name":"occaecat"}],"status":"sold"},{"id":33377689,"category":{"id":-5871190,"name":"in voluptate velit proident"},"name":"doggie","photoUrls":["amet in","aute in"],"tags":[{"id":-26593919,"name":"tempor eiusmod ipsum"},{"id":78722837,"name":"in sit ullamco aliqua qui"}],"status":"sold"},{"id":24364310,"category":{"id":-12307344,"name":"kitten бфрмалейка"},"name":"kitten1","photoUrls":["dolor in","occaecat dolore consectetur adipisicing"],"tags":[{"id":-22679152,"name":"non ex"},{"id":33284191,"name":"sed pariatur in"}],"status":"sold"},{"id":76621170,"category":{"id":16364966,"name":"Ut cupidatat velit irure minim"},"name":"doggie","photoUrls":["dolore quis","elit ea aliqua dolor adipisicing"],"tags":[{"id":24591216,"name":"ullamco magna laborum ut"},{"id":52512638,"name":"sunt non Lorem"}],"status":"sold"},{"id":82188160,"category":{"id":81640824,"name":"nisi exercitation reprehenderit dolore"},"name":"doggie","photoUrls":["proident eu enim","mollit cillum nisi"],"tags":[{"id":6316356,"name":"laborum magn"},{"id":73149614,"name":"veniam fugiat amet si"}],"status":"sold"},{"id":23327731,"category":{"id":-92357313,"name":"reprehenderit ut nostrud ut"},"name":"doggie","photoUrls":["Lorem laboris","laboris"],"tags":[{"id":89386643,"name":"elit esse cillum"},{"id":-23396785,"name":"minim consectetur"}],"status":"sold"},{"id":24572652,"category":{"id":70314021,"name":"adipisicing dolore"},"name":"doggie","photoUrls":["magna dolor Ut in","in eiusm"],"tags":[{"id":85643839,"name":"aliquip sit dolor"},{"id":-89364963,"name":"elit id reprehenderit eiusmod exercitation"}],"status":"sold"},{"id":38541659,"category":{"id":-70999792,"name":"dolore aliqua irure"},"name":"doggie","photoUrls":["cupidatat quis","ipsum deserunt"],"tags":[{"id":96985450,"name":"proident adipisicing officia"},{"id":-17203769,"name":"sunt reprehenderit"}],"status":"sold"},{"id":90369791,"category":{"id":-28594492,"name":"ad"},"name":"doggie","photoUrls":["nulla ipsum dolor","cillum"],"tags":[{"id":16964237,"name":"velit aliquip occaecat voluptate"},{"id":-32143651,"name":"sed nulla sint"}],"status":"sold"},{"id":1711982,"category":{"id":52551857,"name":"non Lorem tempor"},"name":"doggie","photoUrls":["veniam","reprehenderit commodo proident occaecat"],"tags":[{"id":-12689894,"name":"veniam mollit"},{"id":-27514803,"name":"sed ullamco ut"}],"status":"sold"},{"id":33845545,"category":{"id":-13100367,"name":"deserunt aute irure"},"name":"doggie","photoUrls":["dolore reprehenderit adipisicing sed","tempor irure consectetur amet"],"tags":[{"id":-43225306,"name":"laborum proident Excepteur"},{"id":-7466415,"name":"ut in cupidatat laboris"}],"status":"sold"},{"id":40010473,"category":{"id":-13430874,"name":"in fugiat ipsum"},"name":"doggie","photoUrls":["proident sed ut","aute laboris elit occaecat aliquip"],"tags":[{"id":-64712721,"name":"ad"},{"id":40504054,"name":"in"}],"status":"sold"},{"id":62348053,"category":{"id":38125450,"name":"in ipsum eu exercitation"},"name":"doggie","photoUrls":["reprehenderit velit enim voluptate","sit aliquip"],"tags":[{"id":-75638954,"name":"Ut"},{"id":-32534044,"name":"occaecat qui commodo"}],"status":"sold"},{"id":9,"category":{"id":0,"name":"cats"},"name":"King Kong","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":36872199,"category":{"id":87131763,"name":"consectetur"},"name":"doggie","photoUrls":["officia","fugiat Duis sint"],"tags":[{"id":-32111804,"name":"sit consectetur"},{"id":-4313164,"name":"consectetur nulla laborum id"}],"status":"sold"},{"id":9223372036854287,"category":{"id":-13727801,"name":"fishs"},"name":"nemar","photoUrls":["est irure ad","https://icdn.lenta.ru/images/2017/09/01/17/20170901174458404/detail_c21173bdfcc5e339555293d696128592.jpg"],"tags":[{"id":-3288814,"name":"in officia sit sunt"},{"id":-53146769,"name":"voluptate cillum"}],"status":"sold"},{"id":50,"category":{"id":2,"name":"dog_category50"},"name":"dognamesold","photoUrls":["string"],"tags":[{"id":51,"name":"dognamesold"}],"status":"sold"},{"id":49199499,"category":{"id":20305865,"name":"et cupidatat nisi incididunt"},"name":"doggie","photoUrls":["sunt esse consequat","Ut nostrud anim adipisicing"],"tags":[{"id":33995919,"name":"tempor non nostrud"},{"id":-54707686,"name":"qui pariatur"}],"status":"sold"},{"id":10101,"category":{"id":1,"name":"dogs"},"name":"PostmanDogUpdated","photoUrls":["https://example.com/photo.png"],"tags":[{"id":1,"name":"tag1"}],"status":"sold"},{"id":23688827,"category":{"id":38199557,"name":"officia in"},"name":"doggie","photoUrls":["culpa aliqua do Ut","pariatur non qui"],"tags":[{"id":-59409203,"name":"irure id dolor D"},{"id":-8983193,"name":"amet Duis"}],"status":"sold"},{"id":202464360,"category":{"id":-29245128,"name":"incididunt"},"name":"executing_from_test","photoUrls":["dolore Excepteur est","consequat in labore"],"tags":[{"id":-55902183,"name":"Lorem laboris nulla"},{"id":67424482,"name":"incididunt ipsum eiusmod"}],"status":"sold"},{"id":709488,"category":{"id":1,"name":"Dogs"},"name":"UpdatedDog-709488","photoUrls":["https://example.com/photo1.jpg"],"tags":[{"id":1,"name":"test-tag"}],"status":"sold"},{"id":373675,"category":{"id":1,"name":"Dogs"},"name":"UpdatedDog-373675","photoUrls":["https://example.com/photo1.jpg"],"tags":[{"id":1,"name":"test-tag"}],"status":"sold"}]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-Then passed" bis_skin_checked="1">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match response == '#array'</span>
+
+  <span class="lead-duration duration">0.012</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+          <div class="comment indention" bis_skin_checked="1"># Validar que al menos un elemento cumpla el esquema y tenga status sold</div>
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match each response contains { status: 'sold' }</span>
+
+  <span class="lead-duration duration">0.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step" bis_skin_checked="1">
+
+
+<div class="brief step-name-And passed" bis_skin_checked="1">
+  <span class="keyword indention">And</span>
+  <span class="name">match response[0] == { id: '#number', name: '#ignore', photoUrls: '#array', tags: '#ignore', status: 'sold', category: '#ignore' }</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" bis_skin_checked="1">
+  <div class="row" bis_skin_checked="1">
+    <div class="col-md-1 col-md-offset-10" bis_skin_checked="1">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;show&#39;)"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control" onclick="javascript:$(&#39;#report .collapsable-details&#39;).collapse(&#39;hide&#39;)"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid" bis_skin_checked="1">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+
+
+<script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + 
+             '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
+             'referrer=' + encodeURIComponent(window.location.pathname));
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
