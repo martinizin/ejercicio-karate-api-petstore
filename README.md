@@ -87,3 +87,20 @@ Al finalizar la ejecución, se generan dos tipos de reportes en la carpeta `buil
 * **Ejecución Paralela:** Configurada mediante `PetStoreRunner` para optimizar el tiempo de ejecución.
 * **Reutilización de Escenarios (DRY):** Se implementó la capacidad de llamar escenarios (`call read`) dentro de otros; por ejemplo, `updatePet.feature` llama a `addPet.feature` para asegurar que existan datos antes de actualizar.
 * **Data Driven Testing:** Los cuerpos de las peticiones (Payloads) están externalizados en archivos JSON dentro de la carpeta `data/` para mantener los tests limpios.
+
+**Reportes Cucumber**
+***Escenario Find By Status***
+<img width="1901" height="1078" alt="image" src="https://github.com/user-attachments/assets/4ab8dbda-7fc1-4517-8605-97a96063bbf7" />
+***Escenario Get By Pet Id***
+<img width="1903" height="1079" alt="image" src="https://github.com/user-attachments/assets/a13e15ed-4eed-4b37-89cf-421efbffd379" />
+<img width="1536" height="260" alt="image" src="https://github.com/user-attachments/assets/dae87a84-3825-4fe1-8791-9f6a4327979c" />
+***Escenario Update Pet***
+<img width="1900" height="1079" alt="image" src="https://github.com/user-attachments/assets/25a8b1ca-39cb-4298-b566-17ec38a4acca" />
+<img width="1526" height="283" alt="image" src="https://github.com/user-attachments/assets/f9b6945b-1eca-4540-8b47-271a01af28e8" />
+***Escenario Add Pet***
+<img width="1899" height="1024" alt="image" src="https://github.com/user-attachments/assets/71626ea2-76a2-4a51-bcc6-eff93626871c" />
+
+
+
+
+
