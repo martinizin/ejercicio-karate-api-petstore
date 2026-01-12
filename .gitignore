@@ -1,0 +1,34 @@
+# --- Gradle ---
+.gradle
+build/
+# Ignorar el archivo de propiedades locales (donde van secretos a veces)
+gradle.properties
+# Asegurar que el wrapper sí se suba (importante para que otros ejecuten el proyecto)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# --- Karate & Logs ---
+# Karate a veces genera este log en la raíz
+karate.log
+*.log
+# Si alguna vez ejecutas con Maven o configuraciones viejas
+target/
+
+# --- IntelliJ IDEA ---
+# Ignorar toda la carpeta de configuración del IDE (recomendado para evitar conflictos de usuario)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- Eclipse & VS Code (Opcional pero útil si cambias de editor) ---
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db

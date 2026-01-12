@@ -1,0 +1,18 @@
+{
+  "id": "#(petId)",
+  "category": {
+    "id": 1,
+    "name": "Dogs"
+  },
+  "name": "Kiraa Adoptada",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "friendly"
+    }
+  ],
+  "status": "sold"
+}
